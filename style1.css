@@ -1,0 +1,5 @@
+/*media screen and (max-width:768px)
+{
+blah blah blah
+} - what this does is it converts to a different thing when reduced lets say on mobile compared to laptop, so whenever
+    the screen is reduced, this media screen will change the styles to help accomodate (by you) to that screen size.*/
