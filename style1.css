@@ -3,3 +3,39 @@
 blah blah blah
 } - what this does is it converts to a different thing when reduced lets say on mobile compared to laptop, so whenever
     the screen is reduced, this media screen will change the styles to help accomodate (by you) to that screen size.*/
+body{
+background-color: black;
+}
+#Title{
+   color: white;
+   font-size: 20px;
+}
+.save1{
+    display: flex;
+    padding: 5px;
+    margin: 10px;
+    border: 5px solid #383735;
+    font-family: 'Garamond', serif;
+    color: rgb(169, 167, 167);;
+}
+#icon1{
+width: 150px;
+}
+.name{
+position: relative;
+top: -25px;
+left: 15px;
+}
+.row1{
+display: flex;
+
+}
+.location1{
+position: relative;
+top: -25px;
+}
+.level{
+position: relative;
+top: 15px;
+left: 15px;
+}
