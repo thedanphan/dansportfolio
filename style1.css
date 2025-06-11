@@ -11,7 +11,6 @@ background-color: black;
    font-size: 20px;
 }
 .save1{
-    display: flex;
     padding: 5px;
     margin: 10px;
     border: 5px solid #383735;
@@ -21,18 +20,16 @@ background-color: black;
 #icon1{
 width: 150px;
 }
+
 .name{
 position: relative;
 top: -25px;
 left: 15px;
 }
-.row1{
-display: flex;
-
-}
 .location1{
+text-align: right;
 position: relative;
-top: -25px;
+top: -71px;
 }
 .level{
 position: relative;
