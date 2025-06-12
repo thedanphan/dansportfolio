@@ -10,13 +10,17 @@ background-color: black;
    color: white;
    font-size: 20px;
 }
+.save1:hover, .save2:hover{
+    background-color: rgb(62, 62, 31);
+    border: 3px solid rgb(151, 151, 96);
+}
 .save1{
     top: -125px;
     position: relative;
     padding: 5px;
     margin: 150px;
     height: 150px;
-    border: 5px solid #383735;
+    border: 3px solid #383735;
     font-family: 'Garamond', serif;
     color: rgb(169, 167, 167);
 }
@@ -26,7 +30,7 @@ background-color: black;
     padding: 5px;
     margin: 150px;
     height: 150px;
-    border: 5px solid #383735;
+    border: 3px solid #383735;
     font-family: 'Garamond', serif;
     color: rgb(169, 167, 167);
 }
