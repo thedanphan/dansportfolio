@@ -11,28 +11,52 @@ background-color: black;
    font-size: 20px;
 }
 .save1{
+    top: -125px;
+    position: relative;
     padding: 5px;
-    margin: 10px;
+    margin: 150px;
+    height: 150px;
     border: 5px solid #383735;
     font-family: 'Garamond', serif;
-    color: rgb(169, 167, 167);;
+    color: rgb(169, 167, 167);
 }
-#icon1{
+.save2{
+    top: -267px;
+    position: relative;
+    padding: 5px;
+    margin: 150px;
+    height: 150px;
+    border: 5px solid #383735;
+    font-family: 'Garamond', serif;
+    color: rgb(169, 167, 167);
+}
+.time, .time2{
+text-align: right;
+position: relative;
+top: -80px;
+}
+#icon1, #icon2{
+float: left;
 width: 150px;
 }
-
-.name{
+.name, .name2{
 position: relative;
 top: -25px;
 left: 15px;
 }
-.location1{
+.location1, .location2{
 text-align: right;
 position: relative;
 top: -71px;
 }
-.level{
+.level, .level2{
 position: relative;
 top: 15px;
+left: 15px;
+}
+.levelquant, .levelquant2{
+text-align: center;
+position: relative;
+top: -30px;
 left: 15px;
 }
