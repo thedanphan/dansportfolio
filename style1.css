@@ -5,12 +5,20 @@ blah blah blah
     the screen is reduced, this media screen will change the styles to help accomodate (by you) to that screen size.*/
 body{
 background-color: black;
+display: block;
 }
-#Title{
-   color: white;
-   font-size: 20px;
+.title-screen{
+   background-image: url('https://i.pinimg.com/originals/25/48/bf/2548bf6970f74d0d9594e17b72bc2037.gif');
+   background-repeat: no-repeat;
 }
-.save1:hover, .save2:hover{
+#title-logo{
+    width: 650px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.save1:hover, .save2:hover, .save3:hover{
     background-color: rgb(62, 62, 31);
     border: 3px solid rgb(151, 151, 96);
 }
@@ -34,31 +42,41 @@ background-color: black;
     font-family: 'Garamond', serif;
     color: rgb(169, 167, 167);
 }
-.time, .time2{
+.save3{
+    top: -410px;
+    position: relative;
+    padding: 5px;
+    margin: 150px;
+    height: 150px;
+    border: 3px solid #383735;
+    font-family: 'Garamond', serif;
+    color: rgb(169, 167, 167);
+}
+.time, .time2, .time3{
 text-align: right;
 position: relative;
 top: -80px;
 }
-#icon1, #icon2{
+#icon1, #icon2, #icon3{
 float: left;
 width: 150px;
 }
-.name, .name2{
+.name, .name2, .name3{
 position: relative;
 top: -25px;
 left: 15px;
 }
-.location1, .location2{
+.location1, .location2, .location3{
 text-align: right;
 position: relative;
 top: -71px;
 }
-.level, .level2{
+.level, .level2, .level3{
 position: relative;
 top: 15px;
 left: 15px;
 }
-.levelquant, .levelquant2{
+.levelquant, .levelquant2, .levelquant3{
 text-align: center;
 position: relative;
 top: -30px;
