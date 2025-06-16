@@ -7,9 +7,18 @@ body{
 background-color: black;
 display: block;
 }
-.title-screen{
-   background-image: url('https://i.pinimg.com/originals/25/48/bf/2548bf6970f74d0d9594e17b72bc2037.gif');
+.title-screen {
+   background-image: url('https://i.pinimg.com/originals/04/65/8e/04658e1a724c1830587bf1e33930a339.gif');
+   background-size:cover;
+   background-position: center;
+   justify-content: center;
    background-repeat: no-repeat;
+   width:100%;
+   height: auto;
+   
+}
+img{
+justify-content: center;
 }
 #title-logo{
     width: 650px;
