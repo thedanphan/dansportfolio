@@ -21,6 +21,7 @@ justify-content: center;
 }
 #title-logo{
     width: 650px;
+    opacity: 75%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -31,7 +32,34 @@ justify-content: center;
     display: grid;
     grid-template-columns: 1fr;
     width: 10%;
-    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    position: relative;
+    top: -55 px;
+}
+#start, #replay{
+    font-family: Garamond, serif;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid transparent;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    white-space: nowrap;
+}
+#rights{
+    color: white;
+    white-space: nowrap;
+    font-size: 12px;
+}
+#start:hover, #replay:hover{
+    background-image: radial-gradient(rgb(137, 137, 59) ,rgb(67, 67, 31), rgb(27, 27, 13), rgb(0, 0, 0),rgb(10, 10, 5));
+    border-radius: 50%;
+    font-weight: bold;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .empty-space{
