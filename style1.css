@@ -3,6 +3,33 @@
 blah blah blah
 } - what this does is it converts to a different thing when reduced lets say on mobile compared to laptop, so whenever
     the screen is reduced, this media screen will change the styles to help accomodate (by you) to that screen size.*/
+@font-face{
+font-family: 'optimus';
+src: url('fonts/OptimusPrinceps.woff2') format('woff2');
+font-weight: bold;
+font-style: normal;
+}
+.saves{
+    display: none;
+}
+.Together h1{
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
+    /*    background-image: linear-gradient(to right, #cec2ab, #c4a363);*/
+#test{
+    font-family: 'optimus', serif;
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    background-image: -webkit-linear-gradient(#cec2ab, #c4a363);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 body{
 background-color: black;
 display: block;
@@ -16,12 +43,9 @@ display: block;
    width:100%;
    height: 100%;
 }
-img{
-justify-content: center;
-}
 #title-logo{
     width: 650px;
-    opacity: 75%;
+    opacity: 40%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -67,7 +91,7 @@ justify-content: center;
     height: 150px;
 }
 .save1:hover, .save2:hover, .save3:hover{
-    background-color: rgb(62, 62, 31);
+    background-color: rgb(39, 39, 20);
     border: 3px solid rgb(151, 151, 96);
 }
 .save1{
