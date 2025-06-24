@@ -1,10 +1,13 @@
 let view = document.querySelector('#start');
 let restart = document.querySelector('#replay');
 
-let titleScreen = document.querySelector('.title-screen');
-let saveScreen = document.querySelector('.saves');
+let intro = document.querySelector('.intro');
+let content = document.querySelector('.content');
+let aboutme = document.querySelector('.aboutme');
+let aboutButton = document.querySelector('#memoi')
 
-view.addEventListener('click', function(){
-    titleScreen.style.display = "none";
-    saveScreen.style.display = "block";
+let titleScreen = document.querySelector('.title-screen');
+
+aboutButton.addEventListener('click', function(){
+    aboutme.scrollIntoView({behavior: "smooth"});
 });
