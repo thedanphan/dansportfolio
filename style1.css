@@ -116,15 +116,81 @@ display: block;
     height: 595px;
     margin-left: 5%;
     margin-right: 5%;
-    border: 2px solid red;
+    z-index: -2;
 }
 #name1{
     font-family: 'Garamond', serif;
     color: rgb(241, 241, 241);
     position: relative;
-    left: 10px;
+    left: 5px;
+    border-bottom: 4px solid rgb(33, 66, 232);
+    border-radius: 100%;
+    z-index: -1;
 }
 .container #dan{
-    width: 35%;
+    width: 25%;
     float: left;
+    z-index: -1;
+    border: 12px solid transparent;
+    border-image: url('fonts/borderbluetest3.png') 30 round;
+}
+/*
+    border-left: 3px solid rgb(39, 55, 148);
+*/
+.stats{
+    display: grid;
+    grid-template-columns: 2fr, 2fr;
+    padding: 5px;
+    position: relative;
+    left: 5px;
+    margin-left: 27%;
+    color: white;
+    font-size: 15px;
+}
+.left-column{
+        border-left: 5px solid rgb(39, 55, 148);
+        height: 52%;
+}
+.ageclass{
+    position: relative;
+    top: -30px;
+}
+.rankclass{
+    position: relative;
+    top: -85px;
+}
+.affiliationclass{
+    position: relative;
+    top: -81px;
+}
+#age{
+    text-align: left;
+    padding: 5px;
+}
+#agenum{
+    position: relative;
+    top: -47px;
+    text-align: right;
+    margin-right: 60%;
+}
+#status{
+    position: relative;
+    left: 7px;
+}
+#role{
+    position: relative;
+    top: -43px;
+    text-align: right;
+    margin-right: 60%;
+}
+#guild{
+    position: relative;
+    left: 5px;
+}
+#nextechy{
+   position: relative;
+    top: -67px;
+    width: 120px;
+    float: right;
+    margin-right: 59%;
 }
