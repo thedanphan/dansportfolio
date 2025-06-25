@@ -112,7 +112,7 @@ display: block;
 .container{
     background-color: rgba(17, 28, 80, 0.5);
     position: relative;
-    top: -450px;
+    top: -510px;
     height: 595px;
     margin-left: 5%;
     margin-right: 5%;
@@ -205,18 +205,18 @@ display: block;
 }
 .right-column{
     position: relative;
-    top: -140px;
+    top: -170px;
     border-left: 5px solid rgb(39, 55, 148);
-    height: 80%;
+    height: 87%;
 }
 #statsicon{
     position: relative;
-    top: -80px;
+    top: -110px;
     width: 35px;
 }
 #academics{
     position: relative;
-    top: -135px;
+    top: -165px;
     left: 40px;
     background-image: -webkit-linear-gradient(#cec2ab, #c4a363);
     -webkit-background-clip: text;
@@ -280,9 +280,7 @@ display: block;
 .langues{
     position: relative;
     left: -345px;
-    top: -375px;
-    border: 2px solid red;
-    height: 90px;
+    top: -375px;    height: 90px;
     margin-right: 64%;
     justify-content: center;
 }
@@ -311,5 +309,75 @@ display: block;
     position: relative;
     top: -75px;
     display: inline;
-    padding: 1px;
+    padding: 15px;
+    background-image: -webkit-linear-gradient(#cec2ab, #c4a363);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+#cs, #jva, #pto{
+    left: 15px;
+}
+#notes, #nots{
+    position: absolute;
+}
+#notes{
+    top: 135px;
+    left: 5px;
+    background-image: -webkit-linear-gradient(#cec2ab, #c4a363);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#nots{
+    top: 180px;
+    left: 5px;
+}
+.last-column{
+    position: relative;
+    top: -895px;
+    left: -15px;
+    margin-left: 44%;
+    height: 230px;
+}
+#aspr{
+    width: 35px;
+}
+#aspri{
+    position: relative;
+    top: -60px;
+    left: 40px;
+    background-image: -webkit-linear-gradient(#cec2ab, #c4a363);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#aspir{
+    position: relative;
+    top: -65px;
+    left: 5px;
+    padding: 5px;
+    border-left: 5px solid rgb(39, 55, 148);
+    background-color: rgb(48, 56, 106, 0.4);
+    height: 130%;
+    line-height: 210%;
+}  
+#dmoon{
+    position: relative;
+    width: 250px;
+    display: block;
+    top: -400px;
+    margin-left: auto;
+    margin-right: auto;
+}    
+.contactingme{
+    background-image: url('https://64.media.tumblr.com/b7f1865e75340b9f5907c6f9277d6d92/8772cecf141b561a-14/s540x810/fb6655b30ef39fdcd2c6f96dbff3b7968d25d239.gif');
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    width:100%;
+    height: 1600px;
+    mask-image: linear-gradient(to bottom, transparent 0%, black 20%);
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 50%);
+}   
