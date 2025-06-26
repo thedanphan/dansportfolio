@@ -11,6 +11,10 @@ let contactButton = document.querySelector('#contact');
 let titleScreen = document.querySelector('.title-screen');
 let navButton = document.querySelector('#navbutton');
 
+let inputName = document.querySelector('.inputt').value;
+let inputEmail = document.querySelector('.emaill').value;
+let inputMessage = document.querySelector('.messagee').value;
+
 aboutButton.addEventListener('click', function(){
     aboutme.scrollIntoView({behavior: "smooth"});
 });
