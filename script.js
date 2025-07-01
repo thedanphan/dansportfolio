@@ -1,7 +1,4 @@
-let view = document.querySelector('#start');
-let restart = document.querySelector('#replay');
-
-let intro = document.querySelector('.intro');
+let intro = document.querySelector('.intro')
 let content = document.querySelector('.content');
 let aboutme = document.querySelector('.aboutme');
 let contactme = document.querySelector('.contactingme');
@@ -16,11 +13,8 @@ let inputEmail = document.querySelector('.emaill').value;
 let inputMessage = document.querySelector('.messagee').value;
 
 aboutButton.addEventListener('click', function(){
-    aboutme.scrollIntoView({behavior: "smooth"});
-});
-contactButton.addEventListener('click', function(){
-    contactme.scrollIntoView({behavior: "smooth"});
+    content.scrollIntoView({behavior: "smooth"});
 });
 navButton.addEventListener('click', function(){
-    titleScreen.scrollIntoView({behavior: "smooth"});
+    intro.scrollIntoView({behavior: "smooth"});
 });

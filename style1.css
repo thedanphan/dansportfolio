@@ -11,6 +11,10 @@ font-style: normal;
 }
 html{
     display: block;
+    scroll-behavior: smooth;
+}
+html, body {
+  overflow-x: hidden;
 }
 *{
     position: relative;
@@ -30,19 +34,18 @@ html{
     margin-right: auto;
     position: absolute;
     top: 20%;
-    left: 20%;
+    left: 15%;
 }
     /*    background-image: linear-gradient(to right, #cec2ab, #c4a363);*/
 #test{
     font-family: 'optimus', serif;
     text-align: center;
-    font-size: 85px;
+    font-size: 100px;
     color: white;
     background-image: -webkit-linear-gradient(#cec2ab, #c4a363);
     -webkit-background-clip: text;
     background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+    -webkit-text-fill-color: transparent;}
 body{
 background-color: black;
 display: block;
@@ -66,8 +69,10 @@ display: block;
     top: -75px;
 }
 #start, #contact, #memoi, #website, #Resume{
+    text-align: center;
+    text-decoration: none;
     font-family: Garamond, serif;
-    font-size: 20px;
+    font-size: 30px;
     background-color: transparent;
     color: white;
     border: 2px solid transparent;
@@ -96,8 +101,8 @@ display: block;
     display: block;  
     margin-left: auto;
     margin-right: auto;
-    width: 1250px;
-    top: -175px;
+    width: 1400px;
+    top: -250px;
 }
 .content{
     background-image: url('https://i.pinimg.com/originals/db/db/ae/dbdbaece21a46f9a474cf337858ff9e3.gif');
@@ -108,12 +113,12 @@ display: block;
    width:100%;
    height: 100%;
     mask-image: linear-gradient(to bottom, transparent 0%, black 20%);
-  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 25%);
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 10%);
 }
 .container{
     background-color: rgba(17, 28, 80, 0.5);
-    top: -510px;
-    height: 595px;
+    top: -580px;
+    height: 470px;
     margin-left: 5%;
     margin-right: 5%;
     z-index: -2;
@@ -156,8 +161,9 @@ display: block;
     font-size: 21px;
 }
 .left-column{
+        top: 15px;
         border-left: 5px solid rgb(39, 55, 148);
-        height: 52%;
+        height: 35%;
 }
 .ageclass{
     top: -27px;
@@ -169,57 +175,65 @@ display: block;
 .affiliationclass{
     top: -81px;
 }
+#age, #agenum, #status, #role, #guild, #gpa, #gpanum, #grade, #school, #chs1, #gradenum, #rank, #ranknum, #interestn{
+        font-size: 32px;
+        font-family: 'Garamond', serif;
+        font-weight: lighter;
+}
 #age{
+    top: -10px;
     text-align: left;
     padding: 5px;
 }
 #agenum{
-    top: -47px;
+    top: -77px;
     text-align: right;
     margin-right: 60%;
 }
 #status{    
     left: 7px;
+    top: -35px;
 }
 #role{    
-    top: -43px;
+    top: -100px;
     text-align: right;
     margin-right: 60%;
 }
 #guild{    
     left: 5px;
+    top: -110px;
 }
 #nextechy{   
-    top: -68px;
+    top: -187px;
     width: 120px;
     float: right;
     margin-right: 59%;
 }
-.right-column{   
-    top: -170px;
-    border-left: 5px solid rgb(39, 55, 148);
-    height: 87%;
-}
 #statsicon{ 
-    top: -110px;
+    top: -215px;
     width: 35px;
 }
 #academics{
-    top: -165px;
+    top: -270px;
     left: 40px;
     background-image: -webkit-linear-gradient(#cec2ab, #c4a363);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.right-column{   
+    top: -275px;
+    border-left: 5px solid rgb(39, 55, 148);
+    height: 40%;
+}
 #gpa{ 
-    top: -20px;
+    top: -30px;
 }
 #grade{
-    top: -70px;
+    top: -105px;
 }
 #school{    
-    top: -75px;
+    top: -170px;
 }
 #gpa, #grade, #school{     
     left: 5px;
@@ -227,21 +241,29 @@ display: block;
 #gradenum{
     text-align: right;
     margin-right: 60%;    
-    top: -115px;
+    top: -164px;
 }
 #gpanum{
     text-align: right;
     margin-right: 60%;    
-    top: -65px;
+    top: -90px;
 }
  #chs1{
     text-align: right;
     margin-right: 60%;    
-    top: -117px;
-    left: -70px;
+    top: -230px;
+}
+#rank{
+    left: 5px;
+    top: -225px;
+}
+#ranknum{
+    text-align: right;
+    margin-right: 60%; 
+    top: -285px;
 }
 #chs2{     
-    top: -200px;
+    top: -310px;
     width: 65px;
     float: right;
     margin-right: 59%;
@@ -308,106 +330,45 @@ display: block;
     left: 5px;
 }
 .last-column{     
-    top: -895px;
+    top: -1012px;
     left: -15px;
     margin-left: 44%;
     height: 230px;
 }
 #aspr{
     width: 35px;
+    top: 3px;
+    left: 10px;
 }
 #aspri{     
     top: -60px;
-    left: 40px;
+    left: 50px;
     background-image: -webkit-linear-gradient(#cec2ab, #c4a363);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 #aspir{    
-    top: -65px;
-    left: 5px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Garamond', serif;
+    font-weight: lighter;
+    top: -70px;
     padding: 5px;
     border-left: 5px solid rgb(39, 55, 148);
     background-color: rgb(48, 56, 106, 0.4);
-    height: 130%;
-    line-height: 210%;
+    height: 40%;
+    line-height: 200%;
 }  
 #dmoon{    
+    top: 500px;
     width: 250px;
     display: block;
-    top: -400px;
     margin-left: auto;
     margin-right: auto;
 }    
-.contactingme{
-    background-image: url('fonts/royalcap-ezgif.com-crop.gif');
-    background-size: cover;
-    background-position: center;
-    justify-content: center;
-    background-repeat: no-repeat;
-    width:100%;
-    height: 1200px;
-    mask-image: linear-gradient(to bottom, transparent 0%, black 5%);
-    -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 13%);
-}   
-#letter{
-    display: block;    
-    width: 1000px;
-    margin-left: auto; 
-    margin-right: auto;   
-    top: -150px;
-}
-.container2{
-    top: -185px;
-    background-image: url('https://img.freepik.com/free-photo/vintage-grungy-textured-paper-background_53876-103932.jpg?semt=ais_hybrid&w=740');
-    border: 2px solid rgb(158, 151, 112);
-    border-radius: 5%;
-    margin-left:25%;
-    margin-right: 25%;
-    height: 600px;
-}
-#name2{
-    width: 1070px;
-    top: -225px;
-    left: -170px;
-}
-#email{
-    width: 1070px;
-    left: -170px;
-    top: -780px;
-}
-#message{
-    width: 1070px;
-    left: -170px;
-    top: -1330px;
-}
-.inputt{
-    width: 540px;
-    margin: 10px;
-    padding: 10px;
-    top: -525px;
-    left: 75px;
-}
-.emaill{
-    width: 540px;
-    margin: 10px;
-    padding: 10px;
-    top: -1080px;
-    left: 75px; 
-}
-.messagee{
-    width: 540px;
-    margin: 10px;
-    padding: 10px;
-    top: -1630px;
-    left: 75px; 
-    padding-bottom: 100px;
-}
-.inputt, .emaill{
-    z-index: 100;
-}
 #navbutton{
+    text-decoration: none;
    font-family: 'Garamond', serif;
     position:fixed;
     bottom:20px;
@@ -416,7 +377,7 @@ display: block;
     color:rgb(255, 254, 254);
     font-weight: bold;
     padding: 35px;
-    font-size:25px;
+    font-size:30px;
     background-image: url('https://giffiles.alphacoders.com/221/221667.gif');
     background-size: cover;
     background-position: center;
@@ -432,17 +393,76 @@ display: block;
     border:solid #da851d 4px;
     border-radius: 15px;
 }
-#submits{
-    font-family: 'Garamond', serif;
-    background-image: url('https://img.freepik.com/free-vector/gradient-solid-gold-background_23-2151028948.jpg?semt=ais_hybrid&w=740');
-    z-index: 100;
-    font-size: 50px;
-    left: 590px;
-    top: -300px;
-    padding-left: 50px;
-    padding-right: 50px;
+.hobbies{
+    background-color: rgba(17, 28, 80, 0.5);
+    top: -800px;
+    height: 640px;
+    margin-left: 5%;
+    margin-right: 66%;
+    z-index: -2;
 }
-#submits:hover{
-    opacity: 50%;
-    cursor: pointer;
+#azur{
+    width: 60px;
+}
+#hobby{
+    top: -75px;
+    left: 55px;
+    background-image: -webkit-linear-gradient(#cec2ab, #c4a363);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#pingpong{
+    top: -100px;
+    width: 360px;
+    margin: 5%;
+    border: 5px solid transparent;
+    border-image: url('fonts/borderbluetest3.png') 30 round;
+}
+#interestn{
+    color: white;
+    top: -140px;
+    left: 5px;
+    line-height: 120%;
+}
+.aspirations{
+    left: 470px;
+    background-color: rgba(17, 27, 80, 0.833);
+    top: -1440px;
+    height: 640px;
+    margin-left: 5%;
+    margin-right: 38%;
+    z-index: -2;
+}
+#who{
+    width: 60px;
+    top: -15px;
+}
+#who2{
+    top: -85px;
+    left: 60px;
+    background-image: -webkit-linear-gradient(#cec2ab, #c4a363);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#who3{
+    color: white;
+    font-size: 25px;
+    font-family: 'Garamond', serif;
+    font-weight: lighter;
+    top: -90px;
+    margin: 0px;
+    padding: 2px;
+    border-left: 5px solid rgb(39, 55, 148);
+    background-color: rgb(48, 56, 106, 0.4);
+    height: 155%;
+    line-height: 200%; 
+}
+#danschool{
+  width: 400px; 
+  top: -85px;
+  margin-left: 25%;
+    border: 5px solid transparent;
+border-image: url('fonts/borderbluetest3.png') 30 round;
 }

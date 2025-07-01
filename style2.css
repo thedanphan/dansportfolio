@@ -1,0 +1,131 @@
+html{
+    display: block;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+    position: fixed;
+}
+nav{
+    height: 70px;
+}
+*{
+    position: relative;
+}
+.contactingme{
+    background-image: url('fonts/royalcap-ezgif.com-crop.gif');
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    width:100%;
+    height: 1200px;
+    mask-image: linear-gradient(to bottom, transparent 0%, black 20%);
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 2%);
+} 
+#letter{
+    display: block;    
+    width: 950px;
+    margin-left: auto; 
+    margin-right: auto;   
+    top: -155px;
+}
+.container2{
+    top: -320px;
+    background-image: url('https://img.freepik.com/free-photo/vintage-grungy-textured-paper-background_53876-103932.jpg?semt=ais_hybrid&w=740');
+    border: 2px solid rgb(158, 151, 112);
+    border-radius: 5%;
+    margin-left:25%;
+    margin-right: 25%;
+    height: 485px;
+}
+#name2{
+    width: 1070px;
+    top: -225px;
+    left: -170px;
+}
+#email{
+    width: 1070px;
+    left: -170px;
+    top: -780px;
+}
+#message{
+    width: 1070px;
+    left: -170px;
+    top: -1330px;
+}
+.inputt{
+    width: 540px;
+    margin: 10px;
+    padding: 10px;
+    top: -525px;
+    left: 75px;
+}
+.emaill{
+    width: 540px;
+    margin: 10px;
+    padding: 10px;
+    top: -1080px;
+    left: 75px; 
+}
+.messagee{
+    width: 540px;
+    margin: 10px;
+    padding: 10px;
+    top: -1630px;
+    left: 75px; 
+    padding-bottom: 56px;
+}
+.inputt, .emaill{
+    z-index: 100;
+}
+#submits{
+    font-family: 'Garamond', serif;
+    background-image: url('https://img.freepik.com/free-vector/gradient-solid-gold-background_23-2151028948.jpg?semt=ais_hybrid&w=740');
+    z-index: 100;
+    font-size: 50px;
+    left: 590px;
+    top: -395px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#submits:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+
+#home {
+    position: relative;
+    z-index: 2;
+    left: 25px;
+    text-decoration: none;
+    color: white;
+    font-size: 60px;
+    background-image: -webkit-linear-gradient(#c09038, #fec146);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 5px 2px 5px rgb(96, 84, 24);
+}
+
+nav {
+    position: relative;
+    background-image: url('https://64.media.tumblr.com/eae126f1de2d0c21405af37e2b61ecc0/9ba09f59435bab67-f7/s540x810/6b9965910297daccc1169181dee83fd06e0fbca5.gifv');
+    background-position: left 11%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+nav::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: black; 
+    mask-image: linear-gradient(to left, transparent 0%, black 25%);
+    -webkit-mask-image: linear-gradient(to left, transparent 0%, black 120%);
+    z-index: 1; 
+    pointer-events: none;
+}
+
+
+/*    background-image: -webkit-linear-gradient(#cec2ab, #c4a363);  */
