@@ -107,6 +107,13 @@ nav{
     -webkit-text-fill-color: transparent;
     text-shadow: 5px 2px 5px rgb(96, 84, 24);
 }
+#home:hover{
+    background-image: -webkit-linear-gradient(#d7e37e, #f8c867);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 5px 2px 5px rgb(211, 193, 101);
+}
 
 nav {
     position: relative;
