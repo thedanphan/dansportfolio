@@ -1,7 +1,7 @@
 nav{
     height: 70px;
 }
-#home {
+#home{
     position: relative;
     z-index: 2;
     left: 25px;
@@ -14,7 +14,46 @@ nav{
     -webkit-text-fill-color: transparent;
     text-shadow: 5px 2px 5px rgb(96, 84, 24);
 }
-#home:hover{
+#projectb{
+    position: relative;
+    z-index: 2;
+    left: 200px;
+    text-decoration: none;
+    color: white;
+    font-size: 60px;
+    background-image: -webkit-linear-gradient(#c09038, #fec146);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 5px 2px 5px rgb(96, 84, 24);
+}
+#resumed{
+    position: relative;
+    z-index: 2;
+    left: 400px;
+    text-decoration: none;
+    color: white;
+    font-size: 60px;
+    background-image: -webkit-linear-gradient(#c09038, #fec146);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 5px 2px 5px rgb(96, 84, 24);
+}
+#contacta{
+    position: relative;
+    z-index: 2;
+    left: 575px;
+    text-decoration: none;
+    color: white;
+    font-size: 60px;
+    background-image: -webkit-linear-gradient(#c09038, #fec146);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 5px 2px 5px rgb(96, 84, 24);
+}
+#home:hover, #projectb:hover, #resumed:hover, #contacta:hover{
     background-image: -webkit-linear-gradient(#d7e37e, #f8c867);
     -webkit-background-clip: text;
     background-clip: text;
