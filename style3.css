@@ -4,6 +4,7 @@ html{
 }
 body{
     background-color: black;
+    position: fixed;
 }
 nav{
     height: 70px;
@@ -11,8 +12,15 @@ nav{
 *{
     position: relative;
 }
-.contactingme{
-    background-image: url('fonts/royalcap-ezgif.com-crop.gif');
+#letter{
+    width: 70%;
+    display: block;    
+    margin-left: auto; 
+    margin-right: auto;   
+    top: -140px;
+}
+.projecta{
+    background-image: url('https://64.media.tumblr.com/e154ef008175feb19892b47233909b52/ae5a1eb8ea089a00-d6/s540x810/7d7424661620489cc06e2287bc466b13497c2f5b.gif');
     background-size: cover;
     background-position: center;
     justify-content: center;
@@ -22,77 +30,6 @@ nav{
     mask-image: linear-gradient(to bottom, transparent 0%, black 20%);
   -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 2%);
 } 
-#letter{
-    display: block;    
-    width: 950px;
-    margin-left: auto; 
-    margin-right: auto;   
-    top: -155px;
-}
-.container2{
-    top: -320px;
-    background-image: url('https://img.freepik.com/free-photo/vintage-grungy-textured-paper-background_53876-103932.jpg?semt=ais_hybrid&w=740');
-    border: 2px solid rgb(158, 151, 112);
-    border-radius: 5%;
-    margin-left:25%;
-    margin-right: 25%;
-    height: 485px;
-}
-#name2{
-    width: 1070px;
-    top: -225px;
-    left: -170px;
-}
-#email{
-    width: 1070px;
-    left: -170px;
-    top: -780px;
-}
-#message{
-    width: 1070px;
-    left: -170px;
-    top: -1330px;
-}
-.inputt{
-    width: 540px;
-    margin: 10px;
-    padding: 10px;
-    top: -525px;
-    left: 75px;
-}
-.emaill{
-    width: 540px;
-    margin: 10px;
-    padding: 10px;
-    top: -1080px;
-    left: 75px; 
-}
-.messagee{
-    width: 540px;
-    margin: 10px;
-    padding: 10px;
-    top: -1630px;
-    left: 75px; 
-    padding-bottom: 56px;
-}
-.inputt, .emaill{
-    z-index: 100;
-}
-#submits{
-    font-family: 'Garamond', serif;
-    background-image: url('https://img.freepik.com/free-vector/gradient-solid-gold-background_23-2151028948.jpg?semt=ais_hybrid&w=740');
-    z-index: 100;
-    font-size: 50px;
-    left: 590px;
-    top: -395px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-#submits:hover{
-    opacity: 50%;
-    cursor: pointer;
-}
-
 #home {
     position: relative;
     z-index: 2;
@@ -132,6 +69,3 @@ nav::after {
     z-index: 1; 
     pointer-events: none;
 }
-
-
-/*    background-image: -webkit-linear-gradient(#cec2ab, #c4a363);  */
