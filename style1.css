@@ -133,6 +133,7 @@ display: block;
 }
 .container #dan{
     width: 25%;
+    height: 95%;
     float: left;
     z-index: -1;
     border: 12px solid transparent;
