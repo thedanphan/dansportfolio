@@ -4,6 +4,7 @@ html{
 }
 body{
     background-color: black;
+    position: fixed;
 }
 *{
     position: relative;
@@ -33,42 +34,42 @@ body{
     border-radius: 5%;
     margin-left:25%;
     margin-right: 25%;
-    height: 485px;
+    height: 500px;
 }
 #name2{
     width: 1070px;
-    top: -225px;
+    top: -250px;
     left: -170px;
 }
 #email{
     width: 1070px;
     left: -170px;
-    top: -780px;
+    top: -820px;
 }
 #message{
     width: 1070px;
     left: -170px;
-    top: -1330px;
+    top: -1380px;
 }
 .inputt{
     width: 540px;
     margin: 10px;
     padding: 10px;
-    top: -525px;
+    top: -560px;
     left: 75px;
 }
 .emaill{
     width: 540px;
     margin: 10px;
     padding: 10px;
-    top: -1080px;
+    top: -1130px;
     left: 75px; 
 }
 .messagee{
     width: 540px;
     margin: 10px;
     padding: 10px;
-    top: -1630px;
+    top: -1690px;
     left: 75px; 
     padding-bottom: 56px;
 }
@@ -81,7 +82,7 @@ body{
     z-index: 100;
     font-size: 50px;
     left: 590px;
-    top: -395px;
+    top: -450px;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -89,6 +90,5 @@ body{
     opacity: 50%;
     cursor: pointer;
 }
-
 
 /*    background-image: -webkit-linear-gradient(#cec2ab, #c4a363);  */

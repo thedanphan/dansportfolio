@@ -19,6 +19,9 @@ nav{
     margin-right: auto;   
     top: -140px;
 }
+#letter:hover{
+    opacity:80%;
+}
 .projecta{
     background-image: url('https://64.media.tumblr.com/e154ef008175feb19892b47233909b52/ae5a1eb8ea089a00-d6/s540x810/7d7424661620489cc06e2287bc466b13497c2f5b.gif');
     background-size: cover;

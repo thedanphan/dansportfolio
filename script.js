@@ -2,7 +2,7 @@ let projectun = document.querySelector('.project1');
 let projectdeux = document.querySelector('.project2');
 let projecttrois = document.querySelector('.project3');
 let descript = document.querySelector('#descriptions');
-
+let submit = document.querySelector('#letter');
 projectun.addEventListener('mousemove', function(){
     descript.innerHTML = "This is my Website for Good! It discusses the improper and straining use of AI upon commercials and social media. This website introduced me the fundamentals of HTML and CSS and the application of it!";
     descript.style.fontSize = "31px";
@@ -41,4 +41,7 @@ projectdeux.addEventListener('click', function(){
 });
 projecttrois.addEventListener('click', function(){
     window.open('https://thedanphan.github.io/int-u4-project-23-24-starter-code/');
+});
+submit.addEventListener('click', function(){
+    window.open('https://github.com/thedanphan');
 });
